@@ -1,0 +1,26 @@
+{
+  "name": "@leismore/lmos-nodejs-lang300",
+  "version": "1.0.0",
+  "description": "A HTTP redirector which navigates users to language-specified URLs based on their language preferences",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leismore/lmos-nodejs-lang300.git"
+  },
+  "keywords": [
+    "HTTP",
+    "Language",
+    "Negotiation",
+    "HTTP",
+    "Redirect"
+  ],
+  "author": "Kyle Chine",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/leismore/lmos-nodejs-lang300/issues"
+  },
+  "homepage": "https://github.com/leismore/lmos-nodejs-lang300#readme"
+}
