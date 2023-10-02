@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A HTTP redirector which navigates users to language-specified URLs based on their language preferences",
   "private": true,
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "type": "module",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,16 +14,33 @@
     "url": "git+https://github.com/leismore/lmos-nodejs-lang300.git"
   },
   "keywords": [
-    "HTTP",
-    "Language",
-    "Negotiation",
-    "HTTP",
-    "Redirect"
+    "HTTP Language Negotiation",
+    "HTTP Redirect",
+    "LMOS for Node.js",
+    "LMOS",
+    "Leismore OpenSource",
+    "Leismore",
+    "Node.js",
+    "NodeJS",
+    "Node"
   ],
-  "author": "Kyle Chine",
+  "author": {
+    "name": "Kyle Chine",
+    "url": "https://kyle-chine.leismore.co",
+    "email": "kyle.chine@leismore.co"
+  },
   "license": "AGPL-3.0-only",
   "bugs": {
     "url": "https://github.com/leismore/lmos-nodejs-lang300/issues"
   },
-  "homepage": "https://github.com/leismore/lmos-nodejs-lang300#readme"
+  "homepage": "https://github.com/leismore/lmos-nodejs-lang300#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.6",
+    "@types/mocha": "^10.0.2",
+    "@types/node": "^18.17.19",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
 }
