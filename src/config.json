@@ -1,0 +1,14 @@
+{
+    "app": {
+        "id":          "bf75cfef-d14b-52cd-9b43-a4e29b7676a9",
+        "host":        "localhost",
+        "port":        1984,
+        "backlog":     511
+    },
+
+    "mapping":
+    {
+        "en-US": "https://www.google.com",
+        "en-UK": "https://www.apple.com"
+    }
+}
