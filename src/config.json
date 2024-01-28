@@ -9,7 +9,7 @@
     "mapping":
     {
         "default": "https://www.google.com",
-        "en-US": "https://www.google.com",
-        "en-UK": "https://www.apple.com"
+        "en-US":   "https://www.google.com",
+        "en-UK":   "https://www.apple.com"
     }
 }
