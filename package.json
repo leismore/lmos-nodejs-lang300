@@ -36,6 +36,7 @@
   "homepage": "https://github.com/leismore/lmos-nodejs-lang300#readme",
   "devDependencies": {
     "@types/chai": "^4.3.6",
+    "@types/cookie-parser": "^1.4.6",
     "@types/express": "^4.17.21",
     "@types/mocha": "^10.0.2",
     "@types/node": "^18.17.19",
@@ -48,6 +49,7 @@
     "@leismore/lmos-nodejs-error-handler": "^1.0.0",
     "@leismore/lmos-nodejs-lmerror": "^1.1.0",
     "@leismore/lmos-nodejs-lmresponse": "^1.0.0",
+    "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
     "resolve-accept-language": "^2.1.15"
   }
