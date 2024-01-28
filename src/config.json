@@ -6,10 +6,21 @@
         "backlog":     511
     },
 
+    "defaultLang": "en-US",
+
     "mapping":
     {
-        "default": "https://www.google.com",
         "en-US":   "https://www.google.com",
         "en-UK":   "https://www.apple.com"
+    },
+
+    "cookies":
+    {
+        "langTag": "lang"
+    },
+
+    "redirection":
+    {
+        "statusCode": "300"
     }
 }
