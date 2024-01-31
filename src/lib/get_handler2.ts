@@ -21,7 +21,7 @@ function get_handler2(req:Request, res:Response, next:NextFunction):void
         if ('accept-language' in req.headers && typeof req.headers['accept-language'] === 'string')
         {
             langRequest = req.headers['accept-language'];
-            res.locals.lang = resolveAcceptLanguage.default(langRequest, langSupported, langDefault);
+            res.locals.lang = resolveAcceptLanguage.default(langRequest, langSupported, langDefault).toLowerCase();
         }
         else
         {
