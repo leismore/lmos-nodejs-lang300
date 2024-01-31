@@ -5,12 +5,11 @@
 
 import express from 'express';
 import CONFIG from './config.json' assert {type: 'json'};
-import PACKAGE from '../package.json' assert {type: 'json'};
 import { get_handler1 } from './lib/get_handler1.js';
 import { get_handler2 } from './lib/get_handler2.js';
 import { get_handler3 } from './lib/get_handler3.js';
 
-const appName = PACKAGE.name;
+const appName = CONFIG.app.name;
 const port = CONFIG.app.port;
 
 const app = express();
