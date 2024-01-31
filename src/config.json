@@ -21,6 +21,6 @@
 
     "redirection":
     {
-        "statusCode": "300"
+        "statusCode": "302"
     }
 }
