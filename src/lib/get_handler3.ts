@@ -18,7 +18,7 @@ function get_handler3(req:Request, res:Response):void
 
     const respData:LMResponseData = {
         statusCode: statusCode,
-        headers: {Location: url}
+        headers: {Location: url, Vary: 'accept-language'}
     }
 
     resp.send(respData);
