@@ -3,7 +3,7 @@
         "name":        "@leismore/lmos-nodejs-lang300",
         "id":          "bf75cfef-d14b-52cd-9b43-a4e29b7676a9",
         "host":        "localhost",
-        "port":        1984,
+        "port":        "1984",
         "backlog":     511
     },
 
