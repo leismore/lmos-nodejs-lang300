@@ -7,7 +7,10 @@
   "type": "module",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-server": "ts-node-esm ./src/index.ts",
+    "start-test": "mocha ./test/test.ts",
+    "test": "start-server-and-test start-server http://localhost:1984 start-test",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -43,6 +46,7 @@
     "axios": "^1.6.7",
     "chai": "^4.3.10",
     "mocha": "^10.2.0",
+    "start-server-and-test": "^2.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
