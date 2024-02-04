@@ -19,7 +19,7 @@ function get_handler1(req:Request, res:Response, next:NextFunction):void
     {
         cookieValue = req.cookies[cookieName].toLowerCase();
 
-        if (cookieValue in langSupported)
+        if ( langSupported.includes(cookieValue) )
         {
             res.locals.lang = cookieValue;
         }
