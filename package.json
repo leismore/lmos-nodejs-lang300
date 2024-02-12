@@ -32,6 +32,10 @@
     "url": "https://kyle-chine.leismore.co",
     "email": "kyle.chine@leismore.co"
   },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/leismore"
+  },
   "license": "AGPL-3.0-only",
   "bugs": {
     "url": "https://github.com/leismore/lmos-nodejs-lang300/issues"
