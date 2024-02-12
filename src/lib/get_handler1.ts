@@ -3,7 +3,7 @@
  */
 
 import { Request, Response, NextFunction } from 'express';
-import CONFIG from '../config.json' assert {type: 'json'};
+import CONFIG from '../config.json' with {type: 'json'};
 import { lowercase_mapping } from './lowercase_mapping.js';
 
 const cookieName    = CONFIG.cookies.langTag;

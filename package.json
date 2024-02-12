@@ -1,13 +1,13 @@
 {
   "name": "@leismore/lmos-nodejs-lang300",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A HTTP redirector which navigates users to language-specified URLs based on their language preferences",
   "private": true,
   "main": "./dist/index.js",
   "type": "module",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "start-server": "ts-node-esm ./src/index.ts",
+    "start-server": "node --loader ts-node/esm ./src/index.ts",
     "start-test": "mocha ./test/test.ts",
     "test": "start-server-and-test start-server http://localhost:1984 start-test",
     "build": "tsc"
@@ -42,24 +42,24 @@
   },
   "homepage": "https://github.com/leismore/lmos-nodejs-lang300#readme",
   "devDependencies": {
-    "@types/chai": "^4.3.6",
+    "@types/chai": "^4.3.11",
     "@types/cookie-parser": "^1.4.6",
     "@types/express": "^4.17.21",
-    "@types/mocha": "^10.0.2",
-    "@types/node": "^18.17.19",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.17",
     "axios": "^1.6.7",
-    "chai": "^4.3.10",
-    "mocha": "^10.2.0",
+    "chai": "^5.0.3",
+    "mocha": "^10.3.0",
     "start-server-and-test": "^2.0.3",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@leismore/lmos-nodejs-error-handler": "^1.0.0",
-    "@leismore/lmos-nodejs-lmerror": "^1.1.0",
-    "@leismore/lmos-nodejs-lmresponse": "^1.0.0",
+    "@leismore/lmos-nodejs-error-handler": "^1.0.1",
+    "@leismore/lmos-nodejs-lmerror": "^1.1.1",
+    "@leismore/lmos-nodejs-lmresponse": "^1.0.2",
     "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
-    "resolve-accept-language": "^2.1.15"
+    "resolve-accept-language": "^2.1.17"
   }
 }

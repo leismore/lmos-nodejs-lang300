@@ -5,7 +5,7 @@
 import { Request, Response } from 'express';
 import { lowercase_mapping } from './lowercase_mapping.js';
 import { LMResponse, LMResponseData } from '@leismore/lmos-nodejs-lmresponse';
-import CONFIG from '../config.json' assert {type: 'json'};
+import CONFIG from '../config.json' with {type: 'json'};
 
 const mapping     = lowercase_mapping();
 const statusCode  = CONFIG.redirection.statusCode;

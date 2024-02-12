@@ -1,6 +1,6 @@
 // Convert the keys in CONFIG.mapping to lowercase form
 
-import CONFIG from '../config.json' assert {type: 'json'};
+import CONFIG from '../config.json' with {type: 'json'};
 
 const ORIGIN = CONFIG.mapping;
 

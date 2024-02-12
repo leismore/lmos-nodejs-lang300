@@ -5,7 +5,7 @@
 
 import express from 'express';
 import cookieParser from 'cookie-parser';
-import CONFIG from './config.json' assert {type: 'json'};
+import CONFIG from './config.json' with {type: 'json'};
 import { get_handler1 } from './lib/get_handler1.js';
 import { get_handler2 } from './lib/get_handler2.js';
 import { get_handler3 } from './lib/get_handler3.js';

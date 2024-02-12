@@ -1,6 +1,6 @@
 import { assert }       from 'chai';
 import axios            from 'axios';
-import CONFIG from '../src/config.json' assert {type: 'json'};
+import CONFIG from '../src/config.json' with {type: 'json'};
 import { lowercase_mapping } from '../src/lib/lowercase_mapping.js';
 
 const appName       = CONFIG.app.name;
